@@ -421,12 +421,17 @@ li.nav-item.fav{
     background-color: var(--black-color);
     top: 32px;
 }
-nav.branch li a:hover{
+nav.branch li .nav-link:hover{
     color: var(--black-color);
+    cursor: pointer;
 }
 nav.branch li a.active{
     padding: 28px 28px 28px 0;
     border-bottom: 3px solid var(--Mint-Color);
+}
+.collapse .card-body{
+    background-color: var(--Neutral-color);
+    border: none;
 }
 .hero.branch{
     background-repeat: no-repeat;
@@ -799,6 +804,9 @@ button.heading.active::before {
     box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05);
     min-width: 250px;
     display: none;
+}
+.account-dropmenue.show{
+    display: block;
 }
 .accountmenue-header,
 .collapse-menues{

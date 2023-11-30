@@ -42,21 +42,151 @@
           </ul>
           <ul class="navbar-nav second d-flex align-items-center">
             <li class="nav-item fav">
-              <a href="#" class="nav-link">
+              <a href="favourites.html" class="nav-link">
                 <img src="img/heart.svg" class="img-fluid" alt="" />
                 Favourites
               </a>
             </li>
-            <li class="nav-item profile">
-              <a
-                href="#"
-                class="nav-link person-profile d-flex align-items-center last"
+            <li class="nav-item position-relative">
+              <div
+                class="nav-link person-profile d-flex align-items-center last profile"
               >
-                <span class="person-img-container d-block position-relative">
+                <div class="person-img-container d-block position-relative">
                   <img src="img/Ellipse 1 (2).svg" class="img-fluid" alt="" />
-                </span>
+                </div>
                 John D.
-              </a>
+              </div>
+              <div class="account-dropmenue position-absolute">
+                <a
+                  href="account.html"
+                  class="accountmenue-header last mb-24 d-flex align-items-center"
+                >
+                  <img src="img/Ellipse 1 (4).svg" alt="" />
+                  <div>
+                    <h6>John Doe.</h6>
+                    <span class="opacity-75">Online</span>
+                  </div>
+                </a>
+                <div class="mb-24 collapse-menues">
+                  <p class="mb-16">
+                    <button
+                      class="border-0 w-100 bg-transparent d-flex align-items-center justify-content-between"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseExample8"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                    >
+                      <div>
+                        <img src="img/User (2).svg" class="img-fluid" alt="" />
+                        <span class="medium-para">My account</span>
+                      </div>
+                      <img
+                        src="img/chevron_forward.svg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </button>
+                  </p>
+                  <div class="collapse" id="collapseExample8">
+                    <div class="card card-body">
+                      <a class="nav-link last" href="accountHistory.html"
+                        >Account History</a
+                      >
+                      <a class="nav-link last" href="accountHistory2.html"
+                        >Account History2</a
+                      >
+                    </div>
+                  </div>
+                  <p class="mb-16">
+                    <button
+                      class="border-0 w-100 bg-transparent d-flex align-items-center justify-content-between"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseExample9"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                    >
+                      <div>
+                        <img src="img/card.svg" class="img-fluid" alt="" />
+                        <span class="medium-para">Payments</span>
+                      </div>
+                      <img
+                        src="img/chevron_forward.svg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </button>
+                  </p>
+                  <div class="collapse" id="collapseExample9">
+                    <div class="card card-body">
+                      <a class="nav-link last" href="paymentMethod.html"
+                        >payment Method</a
+                      >
+                    </div>
+                  </div>
+                  <p class="mb-16">
+                    <button
+                      class="border-0 w-100 bg-transparent d-flex align-items-center justify-content-between"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseExample10"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                    >
+                      <div>
+                        <img src="img/settings.svg" class="img-fluid" alt="" />
+                        <span class="medium-para">Settings</span>
+                      </div>
+                      <img
+                        src="img/chevron_forward.svg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </button>
+                  </p>
+                  <div class="collapse" id="collapseExample10">
+                    <div class="card card-body">
+                      Some placeholder content for the collapse component. This
+                      panel is hidden by default but revealed when the user
+                      activates the relevant trigger.
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <p class="mb-16">
+                    <button
+                      class="border-0 w-100 bg-transparent d-flex align-items-center justify-content-between"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseExample15"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                    >
+                      <div>
+                        <img src="img/settings.svg" class="img-fluid" alt="" />
+                        <span class="medium-para">Support</span>
+                      </div>
+                      <img
+                        src="img/chevron_forward.svg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </button>
+                  </p>
+                  <div class="collapse" id="collapseExample15">
+                    <div class="card card-body">
+                      Some placeholder content for the collapse component. This
+                      panel is hidden by default but revealed when the user
+                      activates the relevant trigger.
+                    </div>
+                  </div>
+                  <div class="logout">
+                    <img src="img/Logout.svg" class="img-fluid" alt="" />
+                    <span class="medium-para">Logout</span>
+                  </div>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
